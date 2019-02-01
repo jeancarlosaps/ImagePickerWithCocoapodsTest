@@ -13,6 +13,8 @@
 		0F14D64321FF7BA700748951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F14D64221FF7BA700748951 /* Assets.xcassets */; };
 		0F14D64621FF7BA700748951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F14D64421FF7BA700748951 /* LaunchScreen.storyboard */; };
 		0F2118402202252E0015245D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F21183F2202252E0015245D /* GoogleService-Info.plist */; };
+		0F2800222204B4C9009D8EAB /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2800212204B4C9009D8EAB /* AppInfo.swift */; };
+		0F2800252204B6FF009D8EAB /* FIRDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2800242204B6FF009D8EAB /* FIRDataObject.swift */; };
 		0F9D21EC22036FAF002768C9 /* DateFormatter+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9D21EB22036FAF002768C9 /* DateFormatter+extensions.swift */; };
 		B50518D254E685F195241F72 /* Pods_ImagePickerWithCocoapodsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A6468EBAE827DE02A9EBD7 /* Pods_ImagePickerWithCocoapodsTest.framework */; };
 /* End PBXBuildFile section */
@@ -26,6 +28,8 @@
 		0F14D64521FF7BA700748951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F14D64721FF7BA700748951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F21183F2202252E0015245D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F2800212204B4C9009D8EAB /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		0F2800242204B6FF009D8EAB /* FIRDataObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRDataObject.swift; sourceTree = "<group>"; };
 		0F9D21EB22036FAF002768C9 /* DateFormatter+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+extensions.swift"; sourceTree = "<group>"; };
 		11E6C8F6365C35A9D590CD07 /* Pods-ImagePickerWithCocoapodsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePickerWithCocoapodsTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImagePickerWithCocoapodsTest/Pods-ImagePickerWithCocoapodsTest.debug.xcconfig"; sourceTree = "<group>"; };
 		17A6468EBAE827DE02A9EBD7 /* Pods_ImagePickerWithCocoapodsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagePickerWithCocoapodsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +69,7 @@
 		0F14D63A21FF7BA400748951 /* ImagePickerWithCocoapodsTest */ = {
 			isa = PBXGroup;
 			children = (
+				0F2800202204B4A1009D8EAB /* Model */,
 				0F9D21EB22036FAF002768C9 /* DateFormatter+extensions.swift */,
 				0F14D63B21FF7BA400748951 /* AppDelegate.swift */,
 				0F14D63D21FF7BA400748951 /* ViewController.swift */,
@@ -75,6 +80,15 @@
 				0F21183F2202252E0015245D /* GoogleService-Info.plist */,
 			);
 			path = ImagePickerWithCocoapodsTest;
+			sourceTree = "<group>";
+		};
+		0F2800202204B4A1009D8EAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F2800212204B4C9009D8EAB /* AppInfo.swift */,
+				0F2800242204B6FF009D8EAB /* FIRDataObject.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		9DACFD257D7AD4EE0A42A9AD /* Pods */ = {
@@ -224,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F14D63E21FF7BA400748951 /* ViewController.swift in Sources */,
+				0F2800222204B4C9009D8EAB /* AppInfo.swift in Sources */,
 				0F9D21EC22036FAF002768C9 /* DateFormatter+extensions.swift in Sources */,
 				0F14D63C21FF7BA400748951 /* AppDelegate.swift in Sources */,
+				0F2800252204B6FF009D8EAB /* FIRDataObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
